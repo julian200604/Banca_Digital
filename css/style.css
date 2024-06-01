@@ -1,0 +1,72 @@
+:root {
+    --primary: #6209DB;
+    --dark: #0000;
+    --light: #ffff;
+    --grey: #f5f5f5; 
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--light);
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.btn-light {
+    background-color: var(--light);
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.btn-light:hover {
+    background-color: var(--primary);
+    border-color: var(--primary); 
+    color: var(--light);
+}
+
+.punto {
+    color: var(--primary);
+}
+
+.body2 {
+    background-color: var(--grey);
+    border-color: var(--grey);
+    height: 106%;
+}
+
+.text2 {
+    color: var(--primary);
+}
+
+.contenedor1{
+    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.5), 0px -10px 10px -10px rgba(0, 0, 0, 0.5);
+    height: 530px;
+}
+
+.body3 {
+    background-color: var(--grey);
+    border-radius: 50px;
+}
+
+.body4 {
+    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.5), 0px -10px 10px -10px rgba(0, 0, 0, 0.5);
+    height: 530px;
+
+}
+
+.boton {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.body5 {
+    background-color: var(--primary);
+}
+
+.text1 {
+    color: #f5f5f5;
+}
